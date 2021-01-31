@@ -1,0 +1,284 @@
+a {
+    color: lightgrey;
+}
+
+a:visited {
+    color: lightgrey;
+}
+
+a:hover {
+    color: grey;
+}
+
+html {
+    background-color: #006d77;
+    border: 0pt;
+    scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: white;
+    border: 0pt;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: #006d77;
+    border: 0pt;
+    height: 560px;
+    margin: 0%;
+    min-height: 560px;
+    max-height:560px
+}
+
+@media (max-width: 780px) {
+    #pictureDiv {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("assets/headerImage.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 200%;
+        border-radius: 20pt;
+        font-size: 550%;
+        margin: 10pt;
+        margin-bottom: 10pt;
+        position: relative;
+        text-align: center;
+    }
+}
+
+@media (min-width: 780px),(max-width: 1010px) {
+    #pictureDiv {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("assets/headerImage.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 150%;
+        border-radius: 20pt;
+        font-size: 550%;
+        margin: 10pt;
+        margin-bottom: 10pt;
+        position: relative;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1010px) {
+    #pictureDiv {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("assets/headerImage.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 115%;
+        border-radius: 20pt;
+        font-size: 550%;
+        margin: 10pt;
+        margin-bottom: 10pt;
+        position: relative;
+        text-align: center;
+    }
+}
+
+header span {
+    align-items: center;
+    display: inline-block;
+    color: #006d77;
+    letter-spacing: 3pt;
+    line-height: 560px;
+    text-align: center;
+    vertical-align: center;
+    white-space: normal;
+    word-break: break-word;
+}
+
+#headerTransition {
+    background-color: white;
+    border: 0pt;
+    display: inline;
+    margin: 0%;
+}
+
+section {
+    background-color: white;
+    border: 0pt;
+}
+
+#map {
+    background-color: #ffddd2;
+    border-radius: 20pt;
+    display: block;
+    margin-bottom: 50pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+    margin-top: 100pt;
+    padding: 10pt;
+}
+
+#map h1 {
+    font-size: xx-large;
+}
+
+#map div {
+    width: 200;
+}
+
+#map iframe {
+    border: 0%;
+    margin: 30pt;
+}
+
+#interior {
+    background-color: #e29578;
+    border-radius: 20pt;
+    display: block;
+    margin-bottom: 50pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+    margin-top: 100pt;
+    padding: 10pt;;
+}
+
+#interior h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.margin {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+}
+
+.kitchen {
+    background: url("assets/kitchen2b.jpg") no-repeat 0 0;
+    border-radius: 20pt;
+    height: 250pt;
+    width: 310pt;
+}
+
+.garage {
+    background: url("assets/garage.jpg") no-repeat 0 0;
+    border-radius: 20pt;
+    display: inline;
+    height: 250pt;
+    width: 310pt;
+}
+
+.diningRoom {
+    background: url("assets/livingRoom1b.jpg") no-repeat 0 0;
+    border-radius: 20pt;
+    display: inline;
+    height: 250pt;
+    width: 310pt;
+}
+
+.livingRoom {
+    background: url("assets/livingRoom2b.jpg") no-repeat 0 0;
+    border-radius: 20pt;
+    display: inline;
+    height: 250pt;
+    width: 310pt;
+}
+
+.bathroom {
+    background: url("assets/bathroomb.jpg") no-repeat 0 0;
+    border-radius: 20pt;
+    display: inline;
+    height: 250pt;
+    width: 310pt;    
+}
+
+.bedroom1 {
+    background: url("assets/bedroom1b.jpg") no-repeat 0 0;
+    border-radius: 20pt;
+    display: inline;
+    height: 250pt;
+    width: 310pt;    
+}
+
+.bedroom2 {
+    background: url("assets/bedroom2b.jpg") no-repeat 0 0;
+    border-radius: 20pt;
+    display: inline;
+    height: 250pt;
+    width: 310pt;    
+}
+
+.front {
+    background: url("assets/front.jpg") no-repeat 0 0;
+    border-radius: 20pt;
+    display: inline;
+    height: 250pt;
+    width: 310pt;    
+    
+}
+
+#bruges {
+    background-color: #e29578;
+    border-radius: 20pt;
+    display: block;
+    margin-bottom: 50pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+    margin-top: 100pt;
+    padding: 10pt;;
+}
+
+#bruges h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+section a {
+    color: #006d77;
+}
+
+.bruges {
+    background: url("assets/astridpark.jpg") no-repeat 0 0;
+    border-radius: 20pt;
+    display: inline;
+    height: 250pt;
+    width: 310pt;   
+}
+
+#calendar {
+    background-color: #ffddd2;
+    border-radius: 20pt;
+    display: block;
+    margin-bottom: 50pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+    margin-top: 100pt;
+    padding: 10pt;;
+}
+
+#calendar h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+footer {
+    background-color: #006d77;
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+
+footer h1 {
+    margin: 0%;
+    font-size: xx-large;
+}
+
+button {
+    border-radius: 5pt;
+    background-color: #83c5be;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer; 
+}
