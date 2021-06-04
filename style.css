@@ -260,6 +260,22 @@ section a {
     font-size: xx-large;
 }
 
+#reviews {
+    background-color: #e29578;
+    border-radius: 20pt;
+    display: block;
+    margin-bottom: 50pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+    margin-top: 100pt;
+    padding: 10pt;;
+}
+
+#reviews h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
 footer {
     background-color: #006d77;
     color: white;
