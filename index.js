@@ -1,6 +1,6 @@
 const arrLang = {
     "en": {
-        "headertxt1": "Casa Brugensis is a luxurious holiday house, renovated with all modern comforts for 2-4 persons.",
+        "headertxt1": "Casa Brugensis is a fantastic holiday house, renovated with all modern comforts for 2-4 persons.",
         "headertxt2": "Our holiday house is uniquely situated in the \"golden triangle\" of Bruges, at the quiet Beguinage and the idyllic Lake of Love.",
         "headertxt3": "Within walking distance of all the sights and museums.",
         "headertxt4": "Shops, restaurants and terraces in the neighbourhood.",
