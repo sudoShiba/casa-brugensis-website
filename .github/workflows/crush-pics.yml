@@ -1,5 +1,7 @@
 name: Crush images
 on:
+  push:
+    branches: ["main"]
   pull_request:
     branches:
       - main
@@ -8,8 +10,11 @@ on:
       - '**.jpeg'
       - '**.png'
       - '**.gif'
+  workflow_dispatch:
 jobs:
   crush:
+    environment:
+      name: github-pages
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
