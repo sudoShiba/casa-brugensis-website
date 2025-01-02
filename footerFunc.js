@@ -7,8 +7,3 @@ function copyToClipboard(id) {
   document.execCommand('copy');
   window.getSelection().removeAllRanges();
 }
-
-const date = new Date();
-const year = date.getFullYear();
-const span = document.getElementById("year");
-span.innerHTML = year;
