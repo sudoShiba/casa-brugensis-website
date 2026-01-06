@@ -6,7 +6,7 @@ const arrLang = {
         "headertxt4": "Shops, restaurants and terraces in the neighbourhood.",
         "interiortitle": "interior",
         "locationheader": "Location",
-        "locationsubtxt": "Located in the medieval center of Bruges Casa Brugesnsis is the perfect place to stay.",
+        "locationsubtxt": "Located in the medieval center of Bruges Casa Brugensis is the perfect place to stay.",
         "locationaddrtitle": "Adress",
         "locationaddr1": "Sulferbergstraat 7,",
         "locationaddr2": "8000 Bruges,",
