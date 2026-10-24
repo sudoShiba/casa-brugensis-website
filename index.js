@@ -13,8 +13,6 @@ const arrLang = {
         "locationaddr3": "Belgium",
         "brugestitle": "Things to do in Bruges",
         "calendartitle": "Book directly",
-        "calfree": "Available",
-        "calbooked": "Booked",
         "reviews": "Reviews",
         "contacttitle": "Contact us!",
         "copy": "copy",
@@ -34,8 +32,6 @@ const arrLang = {
         "locationaddr3": "België",
         "brugestitle": "Te doen in Brugge",
         "calendartitle": "Rechtstreeks boeken",
-        "calfree": "Beschikbaar",
-        "calbooked": "Bezet",
         "reviews": "Beoordelingen",
         "contacttitle": "Contacteer ons!",
         "copy": "kopieer",
@@ -55,8 +51,6 @@ const arrLang = {
         "locationaddr3": "Belgique",
         "brugestitle": "Choses à faire en Bruges",
         "calendartitle": "Réserver directement",
-        "calfree": "Disponible",
-        "calbooked": "Occupé",
         "reviews": "Commentaires",
         "contacttitle": "Contactez-nous!",
         "copy": "copie",
@@ -78,5 +72,4 @@ $(".translate").click(function() {
     $(".lang").each(function(index, element) {
       $(this).text(arrLang[lang][$(this).attr("key")]);
     });
-    renderCalendar(lang);
 });
