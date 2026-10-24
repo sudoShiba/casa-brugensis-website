@@ -9,6 +9,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  # Refreshes the availability calendar every 2 hours
+  schedule:
+    - cron: "0 */2 * * *"
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -31,6 +35,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Build availability calendar
+        env:
+          ICAL_URL: ${{ secrets.ICAL_URL }}
+        run: python3 scripts/availability.py availability.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

@@ -14,6 +14,7 @@
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <script src="footerFunc.js" defer></script>
         <script src="index.js" defer></script>
+        <script src="calendar.js" defer></script>
         <link rel="apple-touch-icon" href="assets/icon.png">
         <link rel="icon" href="assets/icon.png">
     </head>
@@ -153,6 +154,17 @@
         <section>
             <div id="calendar" align="center">
                 <h1 class="lang" key="calendartitle"></h1>
+                <div id="availability">
+                    <div id="calNav">
+                        <button id="calPrev">&lsaquo;</button>
+                        <button id="calNext">&rsaquo;</button>
+                    </div>
+                    <div id="calMonths"></div>
+                    <p id="calLegend">
+                        <span class="free"></span><span class="lang" key="calfree"></span>
+                        <span class="booked"></span><span class="lang" key="calbooked"></span>
+                    </p>
+                </div>
                 <div id="apartmentIframeAll">
                     <script type="text/javascript" src="https://login.smoobu.com/js/Settings/BookingToolIframe.js"></script>
                     <script>BookingToolIframe.initialize({"url": "https://login.smoobu.com/en/booking-tool/iframe/1580601", "baseUrl": "https://login.smoobu.com", "target": "#apartmentIframeAll"})</script>

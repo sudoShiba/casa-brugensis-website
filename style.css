@@ -298,3 +298,81 @@ button {
 button:hover {
     cursor: pointer; 
 }
+#availability {
+    margin-bottom: 20pt;
+}
+
+#calNav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 640pt;
+    margin: 0 auto;
+}
+
+#calNav button {
+    background-color: #006d77;
+    border: none;
+    border-radius: 10pt;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    padding: 2pt 14pt;
+}
+
+#calNav button:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+#calMonths {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20pt;
+}
+
+.calMonth h3 {
+    text-transform: capitalize;
+}
+
+.calMonth table {
+    border-collapse: separate;
+    border-spacing: 3pt;
+}
+
+.calMonth th {
+    font-weight: normal;
+    font-size: small;
+    text-transform: capitalize;
+}
+
+.calMonth td {
+    border-radius: 6pt;
+    height: 26pt;
+    text-align: center;
+    width: 30pt;
+}
+
+#availability .free {
+    background-color: white;
+}
+
+#availability .booked {
+    background-color: #e29578;
+    color: white;
+    text-decoration: line-through;
+}
+
+.calMonth td.past {
+    color: #b0a8a4;
+}
+
+#calLegend span.free,
+#calLegend span.booked {
+    border-radius: 4pt;
+    display: inline-block;
+    height: 12pt;
+    margin: 0 4pt 0 12pt;
+    vertical-align: middle;
+    width: 12pt;
+}
